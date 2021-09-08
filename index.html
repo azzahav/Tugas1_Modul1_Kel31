@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Kalkulator Manual</title>
+  </head>
+
+  <body>
+    <h1>Kalkulator Manual</h1>
+    <h3>Kelompok 31 :</h3>
+    <script src="Script.js"></script>
+    <form>
+
+        Angka1
+        <input type=text id="angka1" size=3><br><br>
+        Angka2
+        <input id="angka2" type="text" size="3" /><br>
+        <br>
+        Hasil <input type="text" value="" id="total" size="9">
+        <br>
+        <br>
+        Keterangan <input type="text" value="" id="keterangan1" size="9">
+        <br><br>
+        <!-- membuat event ketika tombol di klik maka memanggil function javascript -->
+        <input type=button id=submit onclick="tambah()" value="+">
+        <input type=button id=submit onclick="kali()" value="X">
+        <input type=button id=submit onclick="bagi()" value="/">
+        <input type=button id=submit onclick="kurang()" value="-">
+        <input type=button id=submit onclick="reset()" value="Reset">
+
+    </form>
+  </body>
+</html>
